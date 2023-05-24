@@ -139,6 +139,10 @@ body .bg-primary{
     border-top: 3px solid #00c8aa !important;
 }
 
+.fourth-block h6{
+    font-weight: normal;
+}
+
 .fourth-block-pet-projects{
     padding-left: 1rem;
 }
@@ -162,4 +166,21 @@ body .bg-primary{
 
 .fifth-block .border-top{
     border-top: 3px solid #00c8aa !important;
+}
+
+.fifth-block .list-group {
+    width: fit-content;
+}
+
+/* sixth-block */
+.sixth-block{
+    margin-top: 40px;
+}
+
+.sixth-block .border-top{
+    border-top: 3px solid #00c8aa !important;
+}
+
+.sixth-block .list-group {
+    width: fit-content;
 }
