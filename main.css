@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+body .bg-primary{
+    background-color: #00c8aa !important;
+}
+.color-text{
+    color: #00c8aa;
+}
+
+/* navigation */
+/* .navigation{
+    top: 0;
+    position: sticky;
+    z-index: 99;
+} */
+
+.navigation .navbar-brand img{
+    height: 35px;
+}
+.navigation .navbar-collapse {
+    flex-basis: auto;
+}
+.navigation .flexDirectionRow{
+    flex-direction: row;
+}
+.navigation .nav-item a{
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.navigation .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(0 0 0);
+}
+.navigation .nav-link{
+    font-size: 25px;
+}
+
+/* main-block */
+.main-block{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.main-block-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-block .block-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-block .block-right{
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+
+.main-block .block-right-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main-block .block-right-item{
+    margin-bottom: 15px;
+    margin-left: auto;
+}
+
+.main-block .block-right-item a{
+    color: black;
+}
+.main-block .block-right-item img{
+    margin-left: 10px;
+    width: 26px;
+}
+
+/* second-block */
+.second-block{
+    margin-top: 40px;
+}
+
+.second-block .border-top{
+    border-top: 3px solid #00c8aa !important;
+}
+
+.second-block-skills{
+    padding-left: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+.second-block-name{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.second-block-skills h5{
+    margin-bottom: 25px;
+}
+
+.second-block .second-block-left .list-group{
+    margin-left: 25px;
+    width: fit-content;
+}
+
+.second-block .second-block-right .list-group{
+    width: fit-content;
+}
+
+.second-block .second-block-right .list-group-item{
+    padding-left: 0;
+}
+
+/* third-block */
+.third-block{
+    margin-top: 40px;
+}
+
+.third-block .border-top{
+    border-top: 3px solid #00c8aa !important;
+}
+
+.third-block .third-block-about .list-group-item{
+    font-size: 18px;
+}
+
+/* fourth-block */
+.fourth-block{
+    margin-top: 15px;
+}
+
+.fourth-block .border-top{
+    border-top: 3px solid #00c8aa !important;
+}
+
+.fourth-block-pet-projects{
+    padding-left: 1rem;
+}
+
+.fourth-block-pet-projects .list-group-item{
+    font-size: 18px;
+}
+
+.fourth-block-pet-projects .list-group-item h3{
+    display: inline-block;
+}
+
+.fourth-block .list-group-numbered>li::before {
+    font-size: calc(1.3rem + .6vw);;
+}
