@@ -154,3 +154,12 @@ body .bg-primary{
 .fourth-block .list-group-numbered>li::before {
     font-size: calc(1.3rem + .6vw);;
 }
+
+/* fifth-block */
+.fifth-block{
+    margin-top: 40px;
+}
+
+.fifth-block .border-top{
+    border-top: 3px solid #00c8aa !important;
+}
