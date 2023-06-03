@@ -54,7 +54,7 @@ body .bg-primary{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: fit-content;
+    flex-direction: column;
     margin-left: 100px;
 }
 
@@ -191,4 +191,23 @@ body .bg-primary{
 
 .sixth-block .list-group {
     width: fit-content;
+}
+
+.sixth-block-goals{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth-block-goals .photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    text-align: left;
 }
