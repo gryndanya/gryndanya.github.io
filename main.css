@@ -52,14 +52,15 @@ body .bg-primary{
 
 .main-block .block-left{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    margin-left: 100px;
+    align-items: center;
+    margin: auto;
 }
 
 .main-block .block-left img{
     height: 340px;
+    width: 300px;
+    margin: auto;
 }
 
 
@@ -210,4 +211,5 @@ body .bg-primary{
     flex: 1 1 auto;
     padding: 1rem 1rem;
     text-align: left;
+    width: 100%;
 }
