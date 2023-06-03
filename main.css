@@ -54,7 +54,14 @@ body .bg-primary{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: fit-content;
+    margin-left: 100px;
 }
+
+.main-block .block-left img{
+    height: 340px;
+}
+
 
 .main-block .block-right{
     align-items: center;
