@@ -1,1 +1,1 @@
-# [gryndanya.github.io](gryndanya.github.io)
+# ([gryndanya.github.io](https://gryndanya.github.io/)https://gryndanya.github.io/)
