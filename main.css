@@ -192,15 +192,24 @@ body .bg-primary {
   border-top: 3px solid #00c8aa !important;
 }
 
+.sixth-block-goals {
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  justify-content: center;
+  align-items: center;
+}
+
 .sixth-block .list-group {
   width: fit-content;
 }
 
-.sixth-block-goals {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  align-items: center;
+.sixth-block .list-group-item-text {
+  vertical-align: middle;
+}
+
+.sixth-block .list-group-item img{
+  float: right;
+  margin-left: 1rem;
 }
 
 .sixth-block-goals .photo {
