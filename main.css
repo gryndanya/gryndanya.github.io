@@ -61,6 +61,8 @@ body .bg-primary {
   height: 340px;
   width: 300px;
   margin: auto;
+  border: 2px solid;
+  border-radius: 15px;
 }
 
 .main-block .block-right {
