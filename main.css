@@ -222,5 +222,5 @@ body .bg-primary {
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
-  text-align: left;
+  text-align: center;
 }
