@@ -211,8 +211,8 @@ body .bg-primary {
 
 .sixth-block-goals {
   display: grid;
-  grid-template-columns: 5fr 3fr;
-  justify-content: center;
+  grid-gap: 25px;
+  justify-content: left;
   align-items: center;
 }
 
