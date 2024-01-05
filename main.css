@@ -103,7 +103,7 @@ body .bg-primary {
 .second-block-skills {
   padding-left: 1rem;
   display: grid;
-  grid-template-columns: 2fr 5fr;
+  grid-template-columns: 2fr 7fr;
 }
 
 .second-block-name {
@@ -112,7 +112,7 @@ body .bg-primary {
 }
 
 .second-block-skills h5 {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .second-block-skills h5:last-child{
   margin-bottom: 0;
