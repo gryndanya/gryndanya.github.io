@@ -93,7 +93,7 @@ body .bg-primary {
 
 /* second-block */
 .second-block {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .second-block .border-top {
@@ -113,6 +113,9 @@ body .bg-primary {
 
 .second-block-skills h5 {
   margin-bottom: 25px;
+}
+.second-block-skills h5:last-child{
+  margin-bottom: 0;
 }
 
 .second-block .second-block-left .list-group {
@@ -143,7 +146,7 @@ body .bg-primary {
 
 /* fourth-block */
 .fourth-block {
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 .fourth-block .border-top {
@@ -168,6 +171,19 @@ body .bg-primary {
 
 .fourth-block .list-group-numbered > li::before {
   font-size: calc(1.3rem + 0.6vw);
+}
+
+.fourth-block-skills{
+  padding-left: 1rem;
+  display: grid;
+}
+
+.fourth-block-skills h5{
+  margin-bottom: 25px;
+}
+
+.fourth-block-skills h5:last-child{
+  margin-bottom: 0;
 }
 
 /* fifth-block */
