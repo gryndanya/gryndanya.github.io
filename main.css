@@ -73,7 +73,8 @@ body .bg-primary {
 .main-block .block-right {
   align-items: center;
   display: flex;
-  justify-content: right;
+  justify-content: left;
+    padding-left: 25px;
 }
 
 .main-block .block-right-list {
@@ -87,7 +88,7 @@ body .bg-primary {
 }
 
 .main-block .block-right-item img {
-  margin-left: 10px;
+  margin-right: 10px;
   width: 26px;
 }
 
