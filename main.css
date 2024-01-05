@@ -222,6 +222,7 @@ body .bg-primary {
   grid-gap: 25px;
   justify-content: left;
   align-items: center;
+  padding-left: 1rem;
 }
 
 .sixth-block .list-group {
